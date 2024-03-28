@@ -5,3 +5,9 @@
 h1, h2, h3, h4, h5, h6, p {
     margin: 0 !important;
 }
+.wrapperMain {
+    width: 100vw !important;
+    margin: 0 0 !important;
+    padding: 0 0 !important;
+    flex-direction: column;
+}

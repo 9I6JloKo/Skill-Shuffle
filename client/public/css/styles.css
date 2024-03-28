@@ -10,6 +10,13 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0 !important;
 }
 
+.wrapperMain {
+  width: 100vw !important;
+  margin: 0 0 !important;
+  padding: 0 0 !important;
+  flex-direction: column;
+}
+
 .default-header {
   background-color: #ffffff;
   position: relative;
@@ -403,4 +410,46 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .gif-picker .gpr-category-list {
   grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.profile-banner {
+  background-color: #00B3DB;
+  width: 100%;
+  height: 389px;
+}
+
+.profile-header {
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-header-list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px grey;
+}
+
+.profile-header-list li {
+  font-family: "Lexend";
+  width: 115px;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #646464;
+  font-weight: 500;
+}
+
+.profile-header-list li b {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
 }/*# sourceMappingURL=styles.css.map */
